@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="@color/blue"
+     android:orientation="vertical"
+     tools:context=".MainActivity">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal"
+         android:layout_marginTop="20dp">
+
+        <TextView
+             android:layout_height="50dp"
+             android:layout_width="150dp"
+             android:layout_marginLeft="20dp"
+             android:textColor="@color/black"
+             android:id="@+id/textviewnumber1"
+             android:text="First Number" />
+
+        <EditText
+             android:layout_height="50dp"
+             android:layout_width="150dp"
+             android:hint="First number"
+             android:textColorHint="@color/white"
+             android:textColor="@color/white"
+             android:id="@+id/inputnumber1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <TextView
+             android:layout_height="50dp"
+             android:layout_width="150dp"
+             android:layout_marginLeft="20dp"
+             android:textColor="@color/black"
+             android:id="@+id/textviewnumber2"
+             android:text="Second Number" />
+
+        <EditText
+             android:layout_height="50dp"
+             android:layout_width="150dp"
+             android:hint="Second number"
+             android:textColorHint="@color/white"
+             android:textColor="@color/white"
+             android:id="@+id/inputnumber2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:weightSum="4"
+         android:orientation="horizontal">
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="20dp"
+             android:id="@+id/btnadd"
+             android:text="ADD" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="20dp"
+             android:id="@+id/btnsubtract"
+             android:text="SUBTRACT" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:weightSum="4"
+         android:orientation="horizontal">
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="20dp"
+             android:id="@+id/btnmultiply"
+             android:text="MULTIPLY" />
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="20dp"
+             android:id="@+id/btndivide"
+             android:text="DIVIDE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:textColor="@color/black"
+             android:layout_marginTop="20dp"
+             android:id="@+id/display"
+             android:text="RESULT " />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="20dp"
+             android:id="@+id/btnclear"
+             android:text="CLEAR" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="150dp"
+             android:layout_marginTop="50dp"
+             android:id="@+id/txtviewname"
+             android:text="Elijah Sarad" />
+
+    </LinearLayout>
+
+</LinearLayout>
